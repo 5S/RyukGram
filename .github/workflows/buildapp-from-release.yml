@@ -77,7 +77,7 @@ jobs:
                 fi
 
             - name: Checkout
-              uses: actions/checkout@v4
+              uses: actions/checkout@v7
 
             - name: Install Dependencies
               run: brew install dpkg
@@ -194,6 +194,7 @@ jobs:
                   STAGE="$(mktemp -d)"
                   unzip -qo -j packages/com.burbn.instagram.ipa "$PLIST" -d "$STAGE"
                   IPA_VER="$(plutil -extract CFBundleShortVersionString raw -o - "$STAGE/Info.plist" 2>/dev/null || true)"
+                  [ -n "$IPA_VER" ] || IPA_VER="$(plutil -extract CFBundleVersion raw -o - "$STAGE/Info.plist" 2>/dev/null || true)"
                   rm -rf "$STAGE"
                 fi
                 if [ -n "$IPA_VER" ]; then
@@ -284,16 +285,16 @@ jobs:
 
             - name: Upload sideload IPA artifact
               if: ${{ inputs.upload_artifact && inputs.build_sideload }}
-              uses: actions/upload-artifact@v4
+              uses: actions/upload-artifact@v7
               with:
-                name: RyukGram_sideload_v${{ steps.tag.outputs.version }}
+                name: RyukGram_sideload_v${{ steps.tag.outputs.version }}_IG${{ env.IG_VER }}
                 path: packages/RyukGram_sideload_v*.ipa
                 if-no-files-found: error
 
             - name: Upload no-plugins IPA artifact
               if: ${{ inputs.upload_artifact && inputs.build_noplugins }}
-              uses: actions/upload-artifact@v4
+              uses: actions/upload-artifact@v7
               with:
-                name: RyukGram_noplugins_v${{ steps.tag.outputs.version }}
+                name: RyukGram_noplugins_v${{ steps.tag.outputs.version }}_IG${{ env.IG_VER }}
                 path: packages/RyukGram_noplugins*.ipa
                 if-no-files-found: error

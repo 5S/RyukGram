@@ -1205,23 +1205,23 @@
 "Switching confirmation off" = "Potvrdenie prepnutia vypnuté";
 "Adds a gallery button to the instants camera so you can send a photo from your album" = "Pridá do fotoaparátu okamžitých správ tlačidlo galérie, aby si mohol odoslať fotku zo svojho albumu";
 "Adds a RyukGram action button to the instants viewer header with expand, save, share, and bulk-save entries" = "Pridá do hlavičky prehliadača okamžitých správ akčné tlačidlo RyukGram s možnosťami rozbalenia, uloženia, zdieľania a hromadného ukladania";
-"All loaded instants" = "Všetky načítané okamžité správy";
+"All loaded instants" = "Všetky načítané Instantky";
 "Auto advance after reaction" = "Automaticky prejsť ďalej po reakcii";
 "Automatically moves to the next instant after you like or react" = "Po označení páči sa mi alebo po odoslaní reakcie automaticky prejde na ďalšiu okamžitú správu";
 "Auto close when finished" = "Po dokončení automaticky zavrieť";
 "Closes the instants viewer once you have seen them all instead of landing on the camera" = "Po zobrazení všetkých okamžitých správ zavrie ich prehliadač namiesto návratu k fotoaparátu";
-"Manually mark instants as seen" = "Manuálne označovať okamžité správy ako videné";
-"Viewed instants stay unseen until you tap the eye button" = "Zobrazené okamžité správy zostanú označené ako nevidené, kým neťukneš na tlačidlo oka";
+"Manually mark instants as seen" = "Manuálne označovať Instantky ako videné";
+"Viewed instants stay unseen until you tap the eye button" = "Zobrazené Instantky zostanú označené ako nevidené, kým neťukneš na tlačidlo oka";
 "Bypasses the Instants screenshot block" = "Obíde blokovanie snímok obrazovky pri okamžitých správach";
 "Could not locate the instant on screen" = "Na obrazovke sa nepodarilo nájsť okamžitú správu";
-"Current instant" = "Aktuálna okamžitá správa";
-"Instant" = "Okamžitá správa";
-"Instants" = "Okamžité správy";
+"Current instant" = "Aktuálna Instantka";
+"Instant" = "Instantka";
+"Instants" = "Instantky";
 "Auto-saved instants log" = "Záznam automaticky uložených okamžitých správ";
-"Auto-save instants" = "Automaticky ukladať okamžité správy";
+"Auto-save instants" = "Automaticky ukladať Instantky";
 "Automatically saves every instant you view, including as you swipe — each one only once" = "Automaticky uloží každú zobrazenú okamžitú správu, aj pri posúvaní — každú iba raz";
 "Instants action button" = "Akčné tlačidlo okamžitých správ";
-"No instants currently loaded" = "Momentálne nie sú načítané žiadne okamžité správy";
+"No instants currently loaded" = "Momentálne nie sú načítané žiadne Instantky";
 "No media available to save" = "Nie sú k dispozícii žiadne médiá na uloženie";
 "Pick from" = "Vybrať z";
 "Queued %lu instants" = "Zaradených do frontu: %lu okamžitých správ";
@@ -1229,7 +1229,7 @@
 "Save all to Photos" = "Uložiť všetko do aplikácie Fotky";
 "Save to Gallery" = "Uložiť do galérie";
 "Send from gallery" = "Odoslať z galérie";
-"Tweaks for the QuickSnap / Instants camera surface." = "Úpravy rozhrania fotoaparátu QuickSnap / Okamžité správy.";
+"Tweaks for the QuickSnap / Instants camera surface." = "Úpravy rozhrania fotoaparátu QuickSnap / Instantky.";
 "Use" = "Použiť";
 
 //////////////////////////////////////////////////////////////////////////////
